@@ -4,9 +4,9 @@ A console-based C++ application that provides personalized movie recommendations
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 👥 User Features
+###  User Features
 - **Sign Up / Login**: Secure user authentication system.
 - **Search by Genre**: Browse movies based on preferred genres.
 - **Filter Options**:
@@ -17,7 +17,7 @@ A console-based C++ application that provides personalized movie recommendations
 - **Smart Recommendations**: Based on user preferences and history.
 - **Search by Title**: Auto-complete style search to find exact matches.
 
-### 🔐 Admin Features
+###  Admin Features
 - **Add New Movie**
 - **Remove Movie**
 - **Modify Movie Details**
@@ -25,9 +25,9 @@ A console-based C++ application that provides personalized movie recommendations
 
 ---
 
-### 🔐 Admin Access
+###  Admin Access
 
-> ⚙️ **Admin functionality is hardcoded** for simplicity during development.
+>  **Admin functionality is hardcoded** for simplicity during development.
 
 ```
 Username: MH112024  
@@ -35,13 +35,13 @@ Password: employee
 ```
 
 ---
-### 💾 Data Management
+###  Data Management
 - **CSV File Handling**: All movie and user data is stored and managed via CSV files.
 - **Persistent Storage**: All changes are saved automatically.
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 | Component       | Details                                 |
 |-----------------|------------------------------------------|
@@ -68,15 +68,15 @@ movie-recommendation/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
-### 🔧 Compile
+###  Compile
 
 ```bash
 g++ -std=c++20 movie-recommendation.cpp -o movie-recommendation
 ````
 
-### ▶️ Execute
+###  Execute
 
 ```bash
 ./movie-recommendation
@@ -84,7 +84,7 @@ g++ -std=c++20 movie-recommendation.cpp -o movie-recommendation
 
 ---
 
-## 🧠 Concepts Applied
+##  Concepts Applied
 
 * File I/O using CSV
 * Object-oriented design
@@ -94,14 +94,14 @@ g++ -std=c++20 movie-recommendation.cpp -o movie-recommendation
 
 ---
 
-## 📌 Limitations
+##  Limitations
 
 * Platform-dependent: Works only on **Windows** due to use of Windows-specific functions.
 * No GUI or database yet (CSV-based for simplicity).
 
 ---
 
-## 📅 Future Improvements
+##  Future Improvements
 
 * Cross-platform support (remove Windows API dependencies)
 * GUI using Qt or similar
@@ -111,13 +111,7 @@ g++ -std=c++20 movie-recommendation.cpp -o movie-recommendation
 
 ---
 
-## 🙌 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## 📄 License
+##  License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
